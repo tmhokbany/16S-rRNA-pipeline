@@ -2,7 +2,7 @@
 [![Python 3.14.7](https://img.shields.io/badge/Python-3.14.7-blue.svg)](https://www.python.org)
 [![VS Code](https://img.shields.io/badge/VS--Code-green.svg)](https://code.visualstudio.com)
 
-A standalone Python script that takes paired Sanger `.ab1` chromatograms and produces cleaned sequences, a multiple sequence alignment, identity-based clustering, and a phylogenetic tree.
+A Python script that takes paired Sanger `.ab1` chromatograms and produces cleaned sequences, a multiple sequence alignment, identity-based clustering, and a phylogenetic tree.
 
 ## Setup on Mac
 
