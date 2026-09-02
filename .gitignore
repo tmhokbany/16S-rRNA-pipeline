@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Confidential sample data / run outputs - not for GitHub
+ab1 input/
+results/
+results_run/
+blast_identify.log
+*.ab1
+*.phd.1
+
+# Personal / non-code files
+Tala Alhokbany Assessment.docx
+
+# OS
+.DS_Store
