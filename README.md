@@ -24,7 +24,7 @@ adjust the direction-detection logic in `process_ab1_file()` if your filenames u
 
 ## Pipeline steps
 
-1. **Quality trimming** — parses each `.ab1` with Biopython, extracts
+1. **Quality trimming** parses each `.ab1` with Biopython, extracts
    per-base Phred quality scores, and trims each read to its best
    contiguous window using a modified Mott algorithm (Kadane's
    maximum-subarray algorithm on `quality - 20`).
