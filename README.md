@@ -30,7 +30,7 @@ adjust the direction-detection logic in `process_ab1_file()` if your filenames u
    maximum-subarray algorithm on `quality - 20`).
 2. **QC filtering** — a trimmed read must be ≥350bp and average ≥Q20 to pass;
    otherwise it's excluded. A sample is dropped entirely if both its reads fail.
-3. **Consensus assembly** — where both reads pass, the reverse read is
+3. **Consensus assembly** where both reads pass, the reverse read is
    reverse-complemented and locally aligned against the forward read; if they
    overlap at ≥97% identity over ≥50bp, they're merged into one extended
    consensus sequence. Otherwise the better single read is used.
